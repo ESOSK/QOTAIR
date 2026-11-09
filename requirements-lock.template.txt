@@ -1,0 +1,12 @@
+# Copy this template to requirements-lock.txt only after replacing every
+# placeholder with an exact local wheel version and SHA-256 hash.
+# The reviewer wrapper passes --require-hashes and --no-index.
+#
+# qotair==0.3.0.dev0 \
+#     --hash=sha256:<exact-qotair-wheel-hash>
+# PyYAML==<exact-version> \
+#     --hash=sha256:<exact-wheel-hash>
+# numpy==<exact-version> \
+#     --hash=sha256:<exact-wheel-hash>
+# scipy==<exact-version> \
+#     --hash=sha256:<exact-wheel-hash>

@@ -1,0 +1,21 @@
+# Example query document for a selected-bin absorption/flux ratio.
+# Insert the model's RegularMesh (or an overlay) with qotair.acquisition,
+# slice one bin to two columns, then route this query. Frozen router thresholds are unchanged.
+schema_version: p1-query-v1
+query_id: mesh_absorption_over_flux
+name: Mesh absorption over flux
+expression_class: ratio
+output_unit: 1/cm
+operand_units:
+  absorption: 1/cm
+  flux: 1/cm2
+domain_constraints:
+  - flux denominator must be stable
+  - RegularMesh bins share one identity
+expression:
+  op: divide
+  args:
+    - op: score
+      name: absorption
+    - op: score
+      name: flux

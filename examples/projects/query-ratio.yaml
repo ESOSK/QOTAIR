@@ -1,0 +1,17 @@
+schema_version: p1-query-v1
+query_id: absorption_over_flux
+name: Absorption over flux
+expression_class: ratio
+output_unit: 1/cm
+operand_units:
+  absorption: 1/cm
+  flux: 1/cm2
+domain_constraints:
+  - flux denominator must be stable
+expression:
+  op: divide
+  args:
+    - op: score
+      name: absorption
+    - op: score
+      name: flux

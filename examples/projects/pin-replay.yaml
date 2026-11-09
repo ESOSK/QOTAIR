@@ -1,0 +1,40 @@
+schema_version: qotair-project-v1
+project_id: pin-replay-demo
+mode: ledger_replay
+model:
+  kind: builtin
+  name: pin
+  support: ledger_replay_only
+ledger:
+  path: ../data/batch_operand_ledger.csv
+  format: csv
+queries:
+  - schema_version: p1-query-v1
+    query_id: absorption_over_flux
+    name: Absorption over flux
+    expression_class: ratio
+    output_unit: 1/cm
+    operand_units:
+      absorption: 1/cm
+      flux: 1/cm2
+    domain_constraints:
+      - flux denominator must be stable
+    expression:
+      op: divide
+      args:
+        - op: score
+          name: absorption
+        - op: score
+          name: flux
+run:
+  confidence_level: 0.95
+  seed: 20260822
+  batches: 64
+  inactive: 4
+  particles_per_batch: 20000
+  omp_threads: 1
+baselines:
+  - collect_all
+  - native_merge
+  - manual_joint
+  - compiled_plan

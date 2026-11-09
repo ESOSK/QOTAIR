@@ -1,0 +1,31 @@
+site_name: QOTAIR
+site_description: Query-driven OpenMC tally acquisition, inference, and refusal
+docs_dir: docs
+site_dir: build/docs
+theme:
+  name: readthedocs
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            docstring_style: google
+            filters:
+              - "!^_"
+            members_order: source
+            show_root_heading: true
+            show_source: false
+            show_signature_annotations: true
+nav:
+  - Home: index.md
+  - Quick start: quickstart.md
+  - Python API: api-reference.md
+  - Generated API: api-generated.md
+  - CLI reference: cli-reference.md
+  - User guide: user-guide.md
+  - Architecture: architecture.md
+  - Acquisition extensions: acquisition.md
+  - Reproducibility: reproducibility.md
+  - Development: development.md
