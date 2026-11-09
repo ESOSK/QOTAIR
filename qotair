@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+project_root="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$project_root"
+export PYTHONPATH="$project_root/src${PYTHONPATH:+:$PYTHONPATH}"
+
+# Prefer the active environment, then the accepted read-only environment used
+# by the bundled replay. This keeps the launcher usable in a bare WSL shell
+# without changing or installing anything.
+python_bin="$(command -v python3 || command -v python || true)"
+if [[ -z "$python_bin" ]]; then
+  echo "QOTAIR requires Python 3.10+; activate an environment or install Python." >&2
+  exit 3
+fi
+exec "$python_bin" -m qotair.cli "${@:-doctor}"

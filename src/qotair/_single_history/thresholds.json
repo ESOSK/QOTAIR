@@ -1,0 +1,11 @@
+{
+  "minimum_batches": 12,
+  "denominator_t_refuse_below": 1.0,
+  "denominator_t_fieller_below": 3.0,
+  "absolute_fisher_skew_jackknife_above": 1.0,
+  "block_sensitivity_z_jackknife_above": 1.0,
+  "block_sensitivity_z_refuse_above": 3.0,
+  "jackknife_bias_z_jackknife_above": 0.25,
+  "block_count": 6,
+  "comparison_epsilon": 1e-15
+}

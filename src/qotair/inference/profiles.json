@@ -1,0 +1,655 @@
+{
+  "created_UTC": "2026-10-29T14:14:38.363423+00:00",
+  "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+  "freeze_sha256": "5c6af2fd3bbca2044f4cf4cb8bca790e74eb2fdda18e00a0c73825299ccd8d4a",
+  "profiles": {
+    "SYN_L_hi": {
+      "model_key": "synthetic:9be3c9f6d5659fae5c7a092dec9fd1f5b24bd0495559bd5246310afb01ddf273",
+      "query_key": "48fdfa9d3f7e2eb59dd7f4f6868ee9535e503d7bf02258f7896a4a5139624f02",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "L_hi",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.984688981557173,
+            0.9972029734272256
+          ],
+          "conditional_coverage_CP": [
+            0.984688981557173,
+            0.9972029734272256
+          ],
+          "release_rate_CP": [
+            0.9965689933749499,
+            1.0
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_W_25": {
+      "model_key": "synthetic:9f85337065230d42e4c5591c05d2f291f05ce4143976475e72e85b63fcce87f5",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "W_25",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.9918995623960764,
+            0.9996492801485285
+          ],
+          "conditional_coverage_CP": [
+            0.9918995623960764,
+            0.9996492801485285
+          ],
+          "release_rate_CP": [
+            0.9965689933749499,
+            1.0
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_W_05": {
+      "model_key": "synthetic:fbe297618f0440331151e3edddb71a42c3d2482632149fbdaece85627f2f3e58",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "W_05",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.994453576956826,
+            0.9999792521493069
+          ],
+          "conditional_coverage_CP": [
+            0.994453576956826,
+            0.9999792521493069
+          ],
+          "release_rate_CP": [
+            0.9965689933749499,
+            1.0
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_W_02": {
+      "model_key": "synthetic:aeabf0dd483bf187708e8970cb434dbe4c90b38e7831fe2c0b200c53600a2cc5",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "W_02",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.9918995623960764,
+            0.9996492801485285
+          ],
+          "conditional_coverage_CP": [
+            0.9918995623960764,
+            0.9996492801485285
+          ],
+          "release_rate_CP": [
+            0.9965689933749499,
+            1.0
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_N_hi": {
+      "model_key": "synthetic:b3745f525b24a4855d6c9a11db6168df3aeef73729f5dbe52f8b407d5e1b64f3",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "N_hi",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.993557089476736,
+            0.9999110904163162
+          ],
+          "conditional_coverage_CP": [
+            0.993557089476736,
+            0.9999110904163162
+          ],
+          "release_rate_CP": [
+            0.9965689933749499,
+            1.0
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_N_lo": {
+      "model_key": "synthetic:6d3a5e2286d3c80f0622189cca6096fce3dba9e8c88f55a6945636a9a3667e98",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "N_lo",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.9918995623960764,
+            0.9996492801485285
+          ],
+          "conditional_coverage_CP": [
+            0.9918995623960764,
+            0.9996492801485285
+          ],
+          "release_rate_CP": [
+            0.9965689933749499,
+            1.0
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_N_iid": {
+      "model_key": "synthetic:2c7c04f5a26272f03b4ecf1d8fe50b1a4c7ce4b8ca68097f696c9349e405be66",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "N_iid",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.994453576956826,
+            0.9999792521493069
+          ],
+          "conditional_coverage_CP": [
+            0.994453576956826,
+            0.9999792521493069
+          ],
+          "release_rate_CP": [
+            0.9965689933749499,
+            1.0
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_Z_hi": {
+      "model_key": "synthetic:e65b7d0591b127293a5cb4304e7acd77fcf31179c07338e9f9777200da871c80",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "Z_hi",
+        "CP_bounds": {
+          "full_coverage_CP": null,
+          "conditional_coverage_CP": null,
+          "release_rate_CP": [
+            0.0002635371688242416,
+            0.004449151665946951
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_LN_hi": {
+      "model_key": "synthetic:7c1c9e16c0283c8443bd68177ee7dac23a548235f82b3e76ca84cefd863e1d03",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "LN_hi",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.991114997866688,
+            0.999472672988617
+          ],
+          "conditional_coverage_CP": [
+            0.991114997866688,
+            0.999472672988617
+          ],
+          "release_rate_CP": [
+            0.9965689933749499,
+            1.0
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_LN_weak": {
+      "model_key": "synthetic:6b261da27241d1829fc1c937e29dbe95f603de9c12ebdbf4876309f3e9865a04",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "LN_weak",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.984688981557173,
+            0.9972029734272256
+          ],
+          "conditional_coverage_CP": [
+            0.984688981557173,
+            0.9972029734272256
+          ],
+          "release_rate_CP": [
+            0.9965689933749499,
+            1.0
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_RARE_hi": {
+      "model_key": "synthetic:fe4bfc05dafa7add42dee73b43b8550b69b4814f88d29596d16958bfbb047185",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "RARE_hi",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.992710700455145,
+            0.9997979611035623
+          ],
+          "conditional_coverage_CP": [
+            0.992710700455145,
+            0.9997979611035623
+          ],
+          "release_rate_CP": [
+            0.9965689933749499,
+            1.0
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_RARE_weak": {
+      "model_key": "synthetic:efa5ce5d23a5510a5d7a7c21d1b64f449250e7fee38ff1dffb9d3d0d6d5bd090",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "RARE_weak",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.992710700455145,
+            0.9997979611035623
+          ],
+          "conditional_coverage_CP": [
+            0.992710700455145,
+            0.9997979611035623
+          ],
+          "release_rate_CP": [
+            0.9965689933749499,
+            1.0
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_RARE_Z": {
+      "model_key": "synthetic:bc00c1c4dd68fb385845ecf312245f5633447da174b0bc86fbd9a899494db8d4",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "RARE_Z",
+        "CP_bounds": {
+          "full_coverage_CP": null,
+          "conditional_coverage_CP": null,
+          "release_rate_CP": [
+            0.0003629636747026954,
+            0.004831855866694815
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_GAUSS_SLOW": {
+      "model_key": "synthetic:41a8aebe4e051c12c221af74ff3b092c197b2704142284e244f7e8b2889080bb",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "GAUSS_SLOW",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.992710700455145,
+            0.9997979611035623
+          ],
+          "conditional_coverage_CP": [
+            0.992710700455145,
+            0.9997979611035623
+          ],
+          "release_rate_CP": [
+            0.9965689933749499,
+            1.0
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_GAUSS_SLOW_WEAK": {
+      "model_key": "synthetic:7b429628de88763a4c06626445e8fc91fa9327e2070eda884643bfd36396316f",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 64,
+      "batches": 3840,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "GAUSS_SLOW_WEAK",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.992710700455145,
+            0.9997979611035623
+          ],
+          "conditional_coverage_CP": [
+            0.99270714902876,
+            0.9997978623411372
+          ],
+          "release_rate_CP": [
+            0.9954299990788399,
+            0.9999995714952377
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_GAUSS_NEGCORR": {
+      "model_key": "synthetic:ca9a7bdb77f46cd0ba2758758a814fecbbc4827a8b309beaca6201bd772bad93",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "GAUSS_NEGCORR",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.9888727669221044,
+            0.9988235388961746
+          ],
+          "conditional_coverage_CP": [
+            0.9888727669221044,
+            0.9988235388961746
+          ],
+          "release_rate_CP": [
+            0.9965689933749499,
+            1.0
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_GAUSS_SLOW_Z": {
+      "model_key": "synthetic:0df7c01c469bde3aa1e96e6f612825cb0bd89ff4fdfafbd6292b75140055b853",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 32,
+      "batches": 240,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "GAUSS_SLOW_Z",
+        "CP_bounds": {
+          "full_coverage_CP": null,
+          "conditional_coverage_CP": null,
+          "release_rate_CP": [
+            0.0005878282192517705,
+            0.005573048397960144
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_LN_TAIL": {
+      "model_key": "synthetic:86fbd99e8e6e0184a541581d2055d74e85f6d92371ecd44d4c45f4d88c8902db",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 64,
+      "batches": 3840,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "LN_TAIL",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.9807321683758978,
+            0.9953416101334237
+          ],
+          "conditional_coverage_CP": [
+            0.9807321683758978,
+            0.9953416101334237
+          ],
+          "release_rate_CP": [
+            0.9965689933749499,
+            1.0
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "SYN_RARE_ULTRA": {
+      "model_key": "synthetic:26d0007c88571096eb2f919788bd0f7da90d03d2023e10ef86ff8137ccc8c072",
+      "query_key": "cb6901c19fb9a721407c2e32b81c9486fea479e54054a85c33e6ceec51eec2fa",
+      "R": 64,
+      "batches": 3840,
+      "normalization": "synthetic_tally_like_row",
+      "source_protocol_sha256": "fd6917a6619356502267a701dc7c2cf7210ba41673635f22dc264036c5bb0937",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "confirmation_sha256": "9e45f0b74ebd0c3d002ae515be88c29417dcc4b8d033756f5e96cec01f43419d",
+        "formula_verification_sha256": "1556f2bd27ee46bd5a5d2f0d6201bbd92eead4faf189b2e2496ae9695d9197f6",
+        "family": "RARE_ULTRA",
+        "CP_bounds": {
+          "full_coverage_CP": [
+            0.9903514088251449,
+            0.9992736719092478
+          ],
+          "conditional_coverage_CP": [
+            0.9903514088251449,
+            0.9992736719092478
+          ],
+          "release_rate_CP": [
+            0.9965689933749499,
+            1.0
+          ]
+        },
+        "passed": true
+      },
+      "scope": "Only this registered synthetic population and fixed acquisition budget. Not a certificate for all distributions of this apparent shape."
+    },
+    "PHY_NORMAL": {
+      "model_key": "physical:135b5bff99c030897ba846d9e16ae8207dc2fb984d8fdcdee1a4992457827ea3:f4671817642fca8fac46c6237cf2dbd57cbb7b3f2adf17ef30607cc48770faf9:OpenMC0.15.3",
+      "query_key": "fc0295902a5a7ded17e044f8f674bd956469b75fce16d7aaa90fa427f64081c2",
+      "R": 32,
+      "batches": 60,
+      "particles": 100,
+      "generations_per_batch": 1,
+      "normalization": "per_source_particle",
+      "source_protocol_sha256": "087c8cb344f90d5097586cea0ff81229e339d6544d6d0c527eb286612e42e25c",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "primary_assessment_sha256": "a4de94db73bf4344a84c3785139e0822327cd46bd1740f29ce74a17bc5dac52e",
+        "prospective_secondary_assessment_sha256": "73a49bf642a80e575566919568066b9eb26e4a9ffaabc443abcf5a00b0045720",
+        "raw_tensor_formula_verification_sha256": "b7a0880d1d1abf731e80592a43fd4426e934d5887858c6fc0c1acf87022f3608",
+        "passed": true
+      },
+      "scope": "Same registered fixed-source model, projected query and acquisition budget; empirical95% minimum validation. Zero-mean denominator has no coverage target, false bounded rate is separately controlled."
+    },
+    "PHY_RARE": {
+      "model_key": "physical:135b5bff99c030897ba846d9e16ae8207dc2fb984d8fdcdee1a4992457827ea3:f4671817642fca8fac46c6237cf2dbd57cbb7b3f2adf17ef30607cc48770faf9:OpenMC0.15.3",
+      "query_key": "984e778b08e878d9290216bd512ebb5403518f07fb40365e3ebd505529ef2ae7",
+      "R": 32,
+      "batches": 60,
+      "particles": 100,
+      "generations_per_batch": 1,
+      "normalization": "per_source_particle",
+      "source_protocol_sha256": "087c8cb344f90d5097586cea0ff81229e339d6544d6d0c527eb286612e42e25c",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "primary_assessment_sha256": "a4de94db73bf4344a84c3785139e0822327cd46bd1740f29ce74a17bc5dac52e",
+        "prospective_secondary_assessment_sha256": "73a49bf642a80e575566919568066b9eb26e4a9ffaabc443abcf5a00b0045720",
+        "raw_tensor_formula_verification_sha256": "b7a0880d1d1abf731e80592a43fd4426e934d5887858c6fc0c1acf87022f3608",
+        "passed": true
+      },
+      "scope": "Same registered fixed-source model, projected query and acquisition budget; empirical95% minimum validation. Zero-mean denominator has no coverage target, false bounded rate is separately controlled."
+    },
+    "PHY_ZERO_DEN": {
+      "model_key": "physical:135b5bff99c030897ba846d9e16ae8207dc2fb984d8fdcdee1a4992457827ea3:f4671817642fca8fac46c6237cf2dbd57cbb7b3f2adf17ef30607cc48770faf9:OpenMC0.15.3",
+      "query_key": "9d89849a25548da3864e23dea75b66e71551751857492ec0a029ad11f5d77eab",
+      "R": 32,
+      "batches": 60,
+      "particles": 100,
+      "generations_per_batch": 1,
+      "normalization": "per_source_particle",
+      "source_protocol_sha256": "087c8cb344f90d5097586cea0ff81229e339d6544d6d0c527eb286612e42e25c",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "primary_assessment_sha256": "a4de94db73bf4344a84c3785139e0822327cd46bd1740f29ce74a17bc5dac52e",
+        "prospective_secondary_assessment_sha256": "73a49bf642a80e575566919568066b9eb26e4a9ffaabc443abcf5a00b0045720",
+        "raw_tensor_formula_verification_sha256": "b7a0880d1d1abf731e80592a43fd4426e934d5887858c6fc0c1acf87022f3608",
+        "passed": true
+      },
+      "scope": "Same registered fixed-source model, projected query and acquisition budget; empirical95% minimum validation. Zero-mean denominator has no coverage target, false bounded rate is separately controlled."
+    },
+    "PHY_ZERO_LINEAR": {
+      "model_key": "physical:135b5bff99c030897ba846d9e16ae8207dc2fb984d8fdcdee1a4992457827ea3:f4671817642fca8fac46c6237cf2dbd57cbb7b3f2adf17ef30607cc48770faf9:OpenMC0.15.3",
+      "query_key": "8edaa28ef3c7147ed9e7624ab424909d442e4115945d41eb403d2aa406d8e8c9",
+      "R": 32,
+      "batches": 60,
+      "particles": 100,
+      "generations_per_batch": 1,
+      "normalization": "per_source_particle",
+      "source_protocol_sha256": "087c8cb344f90d5097586cea0ff81229e339d6544d6d0c527eb286612e42e25c",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "primary_assessment_sha256": "a4de94db73bf4344a84c3785139e0822327cd46bd1740f29ce74a17bc5dac52e",
+        "prospective_secondary_assessment_sha256": "73a49bf642a80e575566919568066b9eb26e4a9ffaabc443abcf5a00b0045720",
+        "raw_tensor_formula_verification_sha256": "b7a0880d1d1abf731e80592a43fd4426e934d5887858c6fc0c1acf87022f3608",
+        "passed": true
+      },
+      "scope": "Same registered fixed-source model, projected query and acquisition budget; empirical95% minimum validation. Zero-mean denominator has no coverage target, false bounded rate is separately controlled."
+    },
+    "PHY_ZERO_RATIO": {
+      "model_key": "physical:135b5bff99c030897ba846d9e16ae8207dc2fb984d8fdcdee1a4992457827ea3:f4671817642fca8fac46c6237cf2dbd57cbb7b3f2adf17ef30607cc48770faf9:OpenMC0.15.3",
+      "query_key": "b1711be4ec87881ae1a49ce485d519cdbaa21b271492972f5b4b63f4eee45b87",
+      "R": 32,
+      "batches": 60,
+      "particles": 100,
+      "generations_per_batch": 1,
+      "normalization": "per_source_particle",
+      "source_protocol_sha256": "087c8cb344f90d5097586cea0ff81229e339d6544d6d0c527eb286612e42e25c",
+      "candidate_sha256": "5a23bb8dd6120ee0d953d40c53ccf299974e1546f42167a740914140dcb1f64e",
+      "evidence": {
+        "primary_assessment_sha256": "a4de94db73bf4344a84c3785139e0822327cd46bd1740f29ce74a17bc5dac52e",
+        "prospective_secondary_assessment_sha256": "73a49bf642a80e575566919568066b9eb26e4a9ffaabc443abcf5a00b0045720",
+        "raw_tensor_formula_verification_sha256": "b7a0880d1d1abf731e80592a43fd4426e934d5887858c6fc0c1acf87022f3608",
+        "passed": true
+      },
+      "scope": "Same registered fixed-source model, projected query and acquisition budget; empirical95% minimum validation. Zero-mean denominator has no coverage target, false bounded rate is separately controlled."
+    }
+  },
+  "no_confirmation_rows_recoded": true,
+  "no_truth_or_reference_used_per_input": true,
+  "prospective_scope_gate_only": true,
+  "raw_statistical_outputs_remain_in_original_evidence": true,
+  "unknown_profiles_require_more_validation": true,
+  "reference_method_sha256": "eb4eb78e4947347aec6f9df867808753e72b7cfcf21f862e116e89baac5badd5"
+}

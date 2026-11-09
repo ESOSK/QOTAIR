@@ -1,0 +1,16 @@
+# Keep product source and documentation stable when a repository is checked out.
+/src/** text eol=lf
+/tests/** text eol=lf
+/tools/** text eol=lf
+/docs/** text eol=lf
+/*.py text eol=lf
+/*.toml text eol=lf
+/*.md text eol=lf
+/*.txt text eol=lf
+
+# The preserved research snapshot is an immutable byte artifact. Do not let
+# Git's text conversion rewrite historical records before manifest checking.
+/research_archive/** -text
+*.h5 binary
+*.whl binary
+*.tar.gz binary

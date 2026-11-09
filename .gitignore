@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.qotair-repro-venv/
+build/
+dist/
+*.egg-info/
+
+# Local OpenMC runtime products and nuclear data
+statepoint.*.h5
+summary.h5
+volume_*.h5
+cross_sections.xml
+*.h5
+
+# Reviewer evidence, wheels, and binding manifests stay local
+research_archive/
+reviewer_bundle/
+reproduction_manifest.json
+reproduction_manifest.sha256
+
+# Local outputs
+results-local/
+scratch/
+logs/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+# Local WSL workdir links (not part of the GitHub software tree)
+/reviewer_bundle
+/paper/data
